@@ -33,6 +33,9 @@ public class MyArray {
         size++;
     }
 
+    /***
+     * Method to display elements in Array
+     */
     private static void display(){
         System.out.println("Array has "+size+" elements");
         for(int i =0; i<size; i++){
